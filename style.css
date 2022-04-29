@@ -1,3 +1,19 @@
-body{
+body {
+  max-width: max-content;
+  margin:auto;
   text-align: center;
+  display: flex;
+}
+
+#welcome-section {
+text-align:center;
+margin-bottom:40em;
+height:100%;
+min-height:100px;
+margin-top:30em;
+}
+#navbar {
+position:fixed;
+bottom:0;
+width:100%;
 }
